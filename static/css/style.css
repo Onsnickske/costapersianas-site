@@ -248,8 +248,17 @@ a:hover {
         max-width: 100%;
     }
 
+    /* Center the logo on mobile */
+    .logo {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
     .logo img {
-        height: 120px;      /* mobile = ~2.5x original */
+        display: block;
+        height: 120px;
+        margin: 0 auto;
     }
 
     .header-inner {
