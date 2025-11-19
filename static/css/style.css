@@ -248,6 +248,10 @@ a:hover {
         max-width: 100%;
     }
 
+    .logo-img {
+        height: 32px;      /* mobile = ~2.5x original */
+    }
+
     .header-inner {
         flex-wrap: wrap;
         align-items: flex-start;
