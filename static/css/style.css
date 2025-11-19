@@ -249,7 +249,7 @@ a:hover {
     }
 
     .logo-img {
-        height: 75px;      /* mobile = ~2.5x original */
+        height: 50px;      /* mobile = ~2.5x original */
     }
 
     .header-inner {
