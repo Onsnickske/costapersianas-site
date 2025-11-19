@@ -465,3 +465,75 @@ a:hover {
         justify-content: flex-start;
     }
 }
+
+/* === PRICE SECTION === */
+
+.price-section {
+    padding: 2.5rem 0 2.8rem;
+}
+
+.price-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.price-intro {
+    color: #4b5563;
+    max-width: 640px;
+    margin-bottom: 1.4rem;
+}
+
+.price-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.price-card {
+    background: #f9fafb;
+    border-radius: 14px;
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    border: 1px solid #e5e7eb;
+}
+
+.price-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+}
+
+.price-main {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.3rem;
+}
+
+.price-desc {
+    font-size: 0.9rem;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.price-note {
+    font-size: 0.85rem;
+    color: #6b7280;
+    max-width: 700px;
+}
+
+.price-note strong {
+    color: #111827;
+}
+
+/* mobile layout */
+@media (max-width: 900px) {
+    .price-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
