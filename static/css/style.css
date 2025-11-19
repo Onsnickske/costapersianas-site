@@ -354,6 +354,7 @@ a:hover {
 
 .bullet-list li + li {
     margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
 }
 
 .highlight-box {
